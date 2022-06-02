@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="resStyle.css">
+  <title>Document</title>
+</head>
+
+<body onload="loadd()">
+  <div class="tables">
+    <div class="tableHeading">
+      <p>Table</p>
+    </div>
+   
+
+    <div class="input" > <input type="text" placeholder="Search Tables..." onkeyup="searchTable(this.value)"></div>
+    
+
+  </div>
+  
+  <div class="menuall">
+
+    <div class="menu-heading">
+      <p>Menu</p>
+    </div>
+
+    <div class="input" >
+      <input type="text" placeholder="Search Menu by food...by course" style="width: 100%;"
+        onkeyup="searchCuisine(this.value)">
+       
+    </div>
+   
+
+    <div id="Itemss">
+    </div>
+  </div>
+
+
+
+  <div class="bill">
+    <div class="model" style="background-color:rgb(202, 202, 202); height: 450px; width: 100;">
+      <div onclick="closepopup()" class="closepop">+</div>
+      <table id="generate">
+        <tr>
+          <th>S.no</th>
+          <th>Item Name</th>
+          <th>Quantity</th>
+          <th>Amount</th>
+        </tr>
+      </table>
+      <center>
+        <button onclick="sessionclose()" class="btn btn-outline-secondary" style="padding-left: 15px; padding-right: 15px;"><h4>Pay Bill</h4></button></center>
+    </div>
+  </div>
+  <script src="res.js"></script>
+
+</body>
+
+</html>

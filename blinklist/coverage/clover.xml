@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1646031296045" clover="3.2.0">
+  <project timestamp="1646031296045" name="All files">
+    <metrics statements="159" coveredstatements="120" conditionals="40" coveredconditionals="17" methods="68" coveredmethods="50" elements="267" coveredelements="187" complexity="0" loc="159" ncloc="159" packages="26" files="26" classes="26"/>
+    <package name="src">
+      <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <file name="App.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/App.tsx">
+        <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="62" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="68" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.ArrowDownIcon">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ArrowDownIcon.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/atoms/ArrowDownIcon/ArrowDownIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Author">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Author.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/atoms/Author/Author.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Avatar">
+      <metrics statements="8" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Avatar.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/atoms/Avatar/Avatar.tsx">
+        <metrics statements="8" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.BlinkListLogo">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BlinkListLogo.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/atoms/BlinkListLogo/BlinkListLogo.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.BookTitle">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="BookTitle.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/atoms/BookTitle/BookTitle.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Button007">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Button007.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/atoms/Button007/Button007.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.More">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="More.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/atoms/More/More.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.MyLibraryHeading">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="MyLibraryHeading.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/atoms/MyLibraryHeading/MyLibraryHeading.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.SearchIcon">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="SearchIcon.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/atoms/SearchIcon/SearchIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.AvatarDropDown">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="AvatarDropDown.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/molecules/AvatarDropDown/AvatarDropDown.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.EntraprenaurExplore">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="EntraprenaurExplore.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/molecules/EntraprenaurExplore/EntraprenaurExplore.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.LoginButton">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="LoginButton.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/molecules/LoginButton/LoginButton.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.LogoutButton">
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="LogoutButton.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/molecules/LogoutButton/LogoutButton.tsx">
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.NavDropDown">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="NavDropDown.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/molecules/NavDropDown/NavDropDown.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.ReadTime">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ReadTime.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/molecules/ReadTime/ReadTime.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="60" count="7" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.BookPage">
+      <metrics statements="17" coveredstatements="8" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="3"/>
+      <file name="BookPage.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/organisms/BookPage/BookPage.tsx">
+        <metrics statements="17" coveredstatements="8" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="3"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="136" count="1" type="stmt"/>
+        <line num="175" count="3" type="stmt"/>
+        <line num="177" count="2" type="stmt"/>
+        <line num="188" count="2" type="stmt"/>
+        <line num="189" count="2" type="stmt"/>
+        <line num="192" count="2" type="stmt"/>
+        <line num="194" count="0" type="stmt"/>
+        <line num="250" count="0" type="stmt"/>
+        <line num="251" count="0" type="stmt"/>
+        <line num="252" count="0" type="stmt"/>
+        <line num="253" count="0" type="stmt"/>
+        <line num="272" count="0" type="stmt"/>
+        <line num="273" count="0" type="stmt"/>
+        <line num="274" count="0" type="stmt"/>
+        <line num="275" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.BooksTabs">
+      <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
+      <file name="BooksTabs.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/organisms/BooksTabs/BooksTabs.tsx">
+        <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.ExploreBox">
+      <metrics statements="13" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+      <file name="ExploreBox.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/organisms/ExploreBox/ExploreBox.tsx">
+        <metrics statements="13" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="54" count="6" type="stmt"/>
+        <line num="64" count="6" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="69" count="6" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="74" count="6" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+        <line num="76" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.Footer">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Footer.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/organisms/Footer/Footer.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.Header">
+      <metrics statements="9" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="Header.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/organisms/Header/Header.tsx">
+        <metrics statements="9" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.MainPage">
+      <metrics statements="6" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <file name="MainPage.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/organisms/MainPage/MainPage.tsx">
+        <metrics statements="6" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="76" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.SimpleTabs">
+      <metrics statements="16" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="6"/>
+      <file name="SimpleTabs.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/organisms/SimpleTabs/SimpleTabs.tsx">
+        <metrics statements="16" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="6"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="65" count="3" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="112" count="4" type="stmt"/>
+        <line num="113" count="4" type="stmt"/>
+        <line num="166" count="2" type="stmt"/>
+        <line num="167" count="1" type="stmt"/>
+        <line num="168" count="1" type="stmt"/>
+        <line num="183" count="1" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="188" count="1" type="stmt"/>
+        <line num="189" count="1" type="stmt"/>
+        <line num="190" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.templates.BooksList">
+      <metrics statements="10" coveredstatements="7" conditionals="8" coveredconditionals="2" methods="5" coveredmethods="3"/>
+      <file name="BooksList.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/templates/BooksList/BooksList.tsx">
+        <metrics statements="10" coveredstatements="7" conditionals="8" coveredconditionals="2" methods="5" coveredmethods="3"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="95" count="4" type="stmt"/>
+        <line num="107" count="4" type="stmt"/>
+        <line num="108" count="3" type="stmt"/>
+        <line num="110" count="2" type="stmt"/>
+        <line num="111" count="2" type="cond" truecount="2" falsecount="2"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="143" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.templates.EntraprenaurPage">
+      <metrics statements="17" coveredstatements="12" conditionals="4" coveredconditionals="2" methods="6" coveredmethods="4"/>
+      <file name="EntraprenaurPage.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/templates/EntraprenaurPage/EntraprenaurPage.tsx">
+        <metrics statements="17" coveredstatements="12" conditionals="4" coveredconditionals="2" methods="6" coveredmethods="4"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="117" count="2" type="stmt"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="119" count="1" type="stmt"/>
+        <line num="120" count="1" type="stmt"/>
+        <line num="121" count="1" type="stmt"/>
+        <line num="122" count="1" type="stmt"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="124" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="127" count="1" type="stmt"/>
+        <line num="130" count="1" type="stmt"/>
+        <line num="168" count="0" type="stmt"/>
+        <line num="169" count="0" type="stmt"/>
+        <line num="170" count="0" type="stmt"/>
+        <line num="184" count="1" type="stmt"/>
+        <line num="198" count="0" type="stmt"/>
+        <line num="199" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.templates.FinishedBooks">
+      <metrics statements="10" coveredstatements="7" conditionals="6" coveredconditionals="3" methods="5" coveredmethods="4"/>
+      <file name="FinishedBooks.tsx" path="/home/yashwp/Zemosoo/reactpract/reactappss/Blinklist(Assignment2)/blinklist/src/components/templates/FinishedBooks/FinishedBooks.tsx">
+        <metrics statements="10" coveredstatements="7" conditionals="6" coveredconditionals="3" methods="5" coveredmethods="4"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="86" count="4" type="stmt"/>
+        <line num="98" count="4" type="stmt"/>
+        <line num="99" count="2" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+        <line num="107" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="135" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

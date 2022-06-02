@@ -1,0 +1,58 @@
+{
+    "tables": 3,
+    "items": [
+      {
+        "name": "Home Country Fries with Herbs & Chilli Flakes",
+        "price": 105,
+        "type":"Starter"
+      },
+      {
+        "name": "Crusty Garlic Focaccia with Melted Cheese",
+        "price": 115,
+        "type":"Starter"
+      },
+      {
+        "name": "French Fries",
+        "price": 95,
+        "type":"Starter"
+      },
+      
+      {
+        "name": "French Fries with Cheese & Jalapenos",
+        "price": 135,
+        "type":"Starter"
+      },
+      
+      {
+        "name": "Grill Chicken",
+        "price": 245,
+        "type":"Main Course"
+      },
+      {
+        "name": "Chicken Mandi - 2pc.",
+        "price": 380,
+        "type":"Main Course"
+      },
+      {
+        "name":"Veg Biryani",
+        "price":150,
+        "type":"Main Course"
+      },
+     
+      {
+        "name":"Curd Rice",
+        "price":250,
+        "type":"Main Course"
+      },
+      {
+        "name":"Ice cream",
+        "price":80,
+        "type":"Dessert"
+      },
+      {
+        "name":"Apple pie",
+        "price":120,
+        "type":"Dessert"
+      }
+    ]
+  }

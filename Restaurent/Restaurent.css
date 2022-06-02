@@ -1,0 +1,315 @@
+body {
+    font-family: Arial;
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .split {
+    height: 100%;
+    
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+  
+  .right {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: green;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+
+
+  ////////////////
+
+
+
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="menu-table">
+
+    <div class="Alltables">
+      <div class="table-heading">
+        <p>Table</p>
+      </div>
+      <input type="text" class="search-table" id="myInput" placeholder="Search table">
+      <div class="MyTable" id="mytable">
+
+        <div class="table">
+
+          <p class="tab">Table-1</p>
+          <span id="tabledetails">Rs.0 | Total items:0</span>
+        </div>
+        <div class="table">
+          <p class="tab">Table-2</p>
+          <span id="tabledetails">Rs.0 | Total items:0</span>
+        </div>
+        <div class="table">
+          <p class="tab">Table-3</p>
+          <span id="tabledetails">Rs.0 | Total items:0</span>
+        </div>
+        <div class="table">
+          <p class="tab">Table-4</p>
+          <span id="tabledetails">Rs.0 | Total items:0</span>
+        </div>
+      </div>
+    </div>
+    <div class="menu-list">
+      <div class="menu-heading">
+        <p>Menu</p>
+      </div>
+      <input type="text" class="search" placeholder="Search menu.. by food">
+      <div class="list-items">
+        <p class="menutab">French fries/p>
+        <span id="menudetails">125</span>
+      </div>
+
+      <div class="list-items">
+        <p class="menutab">French fries/p>
+        <span id="menudetails">125</span>
+      </div>
+
+      <div class="list-items">
+        <p class="menutab">French fries/p>
+        <span id="menudetails">125</span>
+      </div>
+
+      <div class="list-items">
+        <p class="menutab">French fries/p>
+        <span id="menudetails">125</span>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="app1.js">
+  </script>
+
+</body>
+
+</html>
+
+
+
+
+///////////////
+
+
+
+
+css
+
+
+
+.table-heading
+{
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table{
+    padding: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: left;
+    box-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.Alltables{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    /* position:fixed; */
+}
+#tabledetails{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 5px;
+}
+.table p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-table{
+    display: flex;
+}
+.menu-list
+{
+    float: right;
+    margin-left: 40px;
+    width: 70%;
+}
+.menu-list span{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 5px;
+}
+.menu-heading{
+    font-size: 24px;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+}
+.item{
+    padding: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: left;
+    box-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 550;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.priceClass
+{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: auto;
+}
+.search
+{
+    padding: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: left;
+    box-shadow: 1px 1px 1px whitesmoke;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+#myInput
+{
+    padding: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: left;
+    box-shadow: 1px 1px 1px whitesmoke;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+////////////////
+
+
+
+js
+
+
+
+
+const tables = document.querySelector(".alltables");
+
+const tablesList = tables.querySelectorAll("div");
+
+tablesList.forEach(table =>{
+        table.addEventListener("dragover",(e) =>{
+               
+                table.style.backgroundColor="Wheat";
+                table.tab
+                console.log("dragover triggered");
+                console.log(e);
+        })
+        table.addEventListener("dragleave",() =>{
+            table.style.backgroundColor="";
+            console.log("drag left");
+            document.e.target.tab.p.innerHTML="hello";
+            
+            console.log("hlo");
+        })
+
+        table.addEventListener("drop",(e)=>{
+            table.style.backgroundColor="blue";
+            console.log("drag dropped");
+            var dragged=e.target;
+            let tableItemsAndPrice = table.querySelector("span");
+            let tableIdentifier = table.querySelector('p').textContent;
+            let itembar=dragged.querySelector('p').textContent;
+            let pricebar=Number(dragged.querySelector("span").textContent);
+
+            let itemInfo=[itembar,pricebar];
+            console.log(tableIdentifier);
+            console.log("hlo");
+
+            
+        })
+})
+
+
+    let inputMenu = document.querySelector('.menutab');
+inputMenu.addEventListener('keyup',()=>{
+    const val=inputMenu.value.toLowerCase();    
+    
+    document.querySelectorAll('.listitems').forEach( e =>{
+       
+        if(e.querySelector('.menutab').innerHTML.toLowerCase().indexOf(val) >-1)
+        {
+            e.style.display='';
+        }
+        else{
+            e.style.display='none';
+        }
+    });
+});
+
+
+

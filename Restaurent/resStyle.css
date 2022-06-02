@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    font-family:  Helvetica, sans-serif;
+
+  }
+
+.tableHeading
+{
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input{
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: left;
+    box-shadow: 1px 1px 1px rgb(36, 35, 35);
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.menu-heading{
+    font-size: 24px;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+}
+
+.tables{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+.bill{
+    width: 100%;
+    /* box-sizing: box-box; */
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    display: none;
+}
+
+table{
+    width: 95%;
+    margin: 30px 10px;
+}
+
+table input{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+.model{
+    width: 60%;
+    height: 75%;
+    padding: 5px;
+    padding-right: 10px;
+    margin: auto auto;
+    position: relative;
+   
+}
+
+.table{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: left;
+    box-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    top:50px;
+}
+
+.menuall{
+    padding: 10px;
+    float: right;
+    width: 70%;
+    border-left: 3px solid black;
+}
+
+
+
+
+.receipecard{
+    width:inherit;
+    border-radius: 8px;
+    margin: 10px 5px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0 5px;
+    box-shadow: 2px;
+    position: relative;
+    top: 50px;
+}
+
+.input{
+    width: 100%;
+}
+
+.input input{
+    height: 5%;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid white;
+}
+
+.menuall .input{
+    width: 50%;
+}
+
+.tablename{
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    background-color: inherit;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.tabledetails{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.itemname{
+    position: relative;
+    top: 30px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.price{
+    display: inline-flex;
+    position: relative;
+    top: 30px;
+}
+
+#totalamt{
+    font-weight: bold;
+}
+
+.closepop{
+    margin: 10px;
+    position:absolute;
+    top:0;
+    right:0;
+    transform: rotate(45deg);
+    font-size: 25px;
+    cursor: pointer;
+}
+.receipecard{
+    padding: 35px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: left;
+    box-shadow: 1px 1px 1px black;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 100%;
+}
