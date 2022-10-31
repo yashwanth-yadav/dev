@@ -1,0 +1,23 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "To run json server",
+  "main": "index.js",
+  "scripts": {
+    "json-server" : "json-server --watch ./db/db.json --port 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkiran27/Module-Federation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamkiran27/Module-Federation/issues"
+  },
+  "homepage": "https://github.com/iamkiran27/Module-Federation#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
