@@ -1,0 +1,15 @@
+image: maven:latest
+variables:
+  SONAR_TOKEN: "67995f50a38e5fa175aff4137af7618f69060552"
+  SONAR_HOST_URL: "https://sonarcloud.io"
+  GIT_DEPTH: 0
+
+sonarcloud-backend-company-service:
+  stage: sonar-company
+  script:
+    - cd "${CI_PROJECT_DIR}/backend/company-service"
+    - mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=companyService -Dsonar.coverage.exclusions=**/exception/*
+  allow_failure: true
+  only:
+    - merge_requests
+    - main

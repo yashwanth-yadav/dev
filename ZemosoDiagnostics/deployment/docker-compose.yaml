@@ -1,0 +1,23 @@
+version: '3.1'
+
+services:
+
+  frontend:
+    container_name: frontend
+    image: ghcr.io/ayush-sriva/bc-50-ui
+    restart: always
+    ports:
+      - 443:443
+    volumes:
+    - type: bind
+      source: /home/ubuntu/openssl
+      target: /etc/ssl
+
+  mock-server:
+    container_name: mock-server
+    image: ghcr.io/ayush-sriva/bc-50-mock-server
+    restart: always
+    ports:
+      - 3004:3004
+
+# sudo docker run -it -p443:443 -v /home/ubuntu/openssl:/etc/ssl ghcr.io/ayush-sriva/bc-50-ui

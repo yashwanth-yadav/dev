@@ -1,0 +1,169 @@
+{
+  "data": [
+    {
+      "steps": ["Your Location", "Job Location", "Your Skills"],
+      "currentLocationOptions": [
+        "New Delhi",
+        "Bangalore",
+        "Hyderabad",
+        "East Maredpalley, Secunderabad"
+      ],
+      "jobLocationOptions": ["New Delhi", "Bangalore", "Hyderabad"],
+      "skillOptions": ["UI/UX Designer", "Graphic Designer", "DevOps"]
+    },
+
+    {
+      "locations": [
+        {
+          "name": "Hyderabad",
+          "AQIIndex": 567
+        },
+        {
+          "name": "Bangalore",
+          "AQIIndex": 227
+        },
+        {
+          "name": "New Delhi",
+          "AQIIndex": 637
+        },
+        {
+          "name": "Kolkata",
+          "AQIIndex": 837
+        },
+        {
+          "name": "Mumbai",
+          "AQIIndex": 437
+        },
+        { "name": "East Maredpalley, Secunderabad", "AQIIndex": 450 },
+        {
+          "name": "Lucknow",
+          "AQIIndex": 607
+        },
+        {
+          "name": "Chennai",
+          "AQIIndex": 737
+        },
+        {
+          "name": "Bangalore",
+          "AQIIndex": 937
+        },
+        {
+          "name": "Pune",
+          "AQIIndex": 439
+        },
+        {
+          "name": "Lucknow",
+          "AQIIndex": 937
+        },
+        {
+          "name": "Jaipur",
+          "AQIIndex": 1037
+        }
+      ]
+    },
+    {
+      "jobs": [
+        "UI/UX Designer",
+        "Graphic Designer",
+        "DevOps",
+        "Product Designer",
+        "Full Stack Devoloper",
+        "Database Administrator",
+        "Data Engineer",
+        "Web Devoloper",
+        "Quality Assurance Engineer",
+        "Network Engineer",
+        "Data architect",
+        "System analyst"
+      ]
+    },
+    {
+      "jobsData": [
+        {
+          "id": 1,
+          "logo": "/images/myntra.svg",
+          "jobRole": "UI/UX Designer",
+          "company": "Myntra",
+          "city": "Hyderabad",
+          "location": "Hitech city",
+          "state": "Telengana",
+          "pincode": "500056",
+          "time": "24 min ago",
+          "isSaved": false,
+          "distance": 10,
+          "isActive": false
+        },
+        {
+          "id": 2,
+          "logo": "/images/bmw.svg",
+          "jobRole": "Full Stack Developer",
+          "company": "BMW",
+          "city": "Hyderabad",
+          "location": "Banjara Hills",
+          "state": "Telengana",
+          "pincode": "500034",
+          "time": "24 min ago",
+          "isSaved": false,
+          "distance": 23,
+          "isActive": false
+        },
+        {
+          "id": 3,
+          "logo": "/images/instagram.svg",
+          "jobRole": "Graphic Designer",
+          "company": "Instagram",
+          "city": "Mumbai",
+          "location": "Goregav",
+          "state": "Maharashtra",
+          "pincode": "589100",
+          "time": "31 min ago",
+          "isSaved": false,
+          "distance": 25,
+          "isActive": false
+        },
+        {
+          "id": 4,
+          "logo": "/images/hp.svg",
+          "jobRole": "Data Engineer",
+          "company": "HP",
+          "city": "New Delhi",
+          "location": "Uttam Nagar",
+          "state": "Delhi",
+          "pincode": "500432",
+          "time": "10 min ago",
+          "isSaved": false,
+          "distance": 34,
+          "isActive": false
+        },
+        {
+          "id": 5,
+          "logo": "/images/twitter.svg",
+          "jobRole": "DevOps",
+          "company": "Twitter",
+          "city": "Jaipur",
+          "location": "Zanzeerabad",
+          "state": "Lucknow",
+          "pincode": "500234",
+          "time": "15 min ago",
+          "isSaved": false,
+          "distance": 46,
+          "isActive": false
+        },
+        {
+          "id": 6,
+          "logo": "/images/wipro.svg",
+          "jobRole": "Full Stack Developer",
+          "company": "Wipro",
+          "time": "45 min ago",
+          "location": "Andheri west",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "pincode": "500321",
+          "distance": 15,
+          "isSaved": false,
+          "isActive": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "id": "google-oauth2|104904289404221469938",
+      "username": "Sai Kiran Kavali",
+      "email": "saikiran.kavali@zemosolabs.com"
+    },
+    {
+      "id": "auth0|62fba192e07277989f31d4d8",
+      "username": "sai@gmail.com",
+      "email": "sai@gmail.com"
+    }
+  ],
+  "labs": [
+    {
+      "id": 1,
+      "name": "Los Altos Center Lab",
+      "rating": "4.3",
+      "availableSlots": "4 Slots Available",
+      "reportTime": "Reports ready in 24 hrs",
+      "amount": "$1200 for 1 Test"
+    },
+    {
+      "id": 2,
+      "name": "Los Altos Center Lab",
+      "rating": "4.3",
+      "availableSlots": "4 Slots Available",
+      "reportTime": "Reports ready in 24 hrs",
+      "amount": "$1200 for 1 Test"
+    }
+  ],
+  "patients": [
+    {
+      "patient_id": 1660735268325,
+      "user_id": "google-oauth2|104904289404221469938",
+      "relation": "Self",
+      "name": "Kiran",
+      "age": 9,
+      "gender": "Male",
+      "id": 1
+    },
+    {
+      "patient_id": 1660735946013,
+      "user_id": "google-oauth2|104904289404221469938",
+      "relation": "Self",
+      "name": "ABc",
+      "age": 0,
+      "gender": "Male",
+      "id": 2
+    }
+  ],
+  "address": [
+    {
+      "address_id": 1660801976733,
+      "user_id": "google-oauth2|104904289404221469938",
+      "house_no": "Bhoodevi Nagar",
+      "area": "Alwal",
+      "zipcode": "500015",
+      "city": "Hyderabad, Telengana",
+      "isSelected": false,
+      "id": 1
+    },
+    {
+      "address_id": 1660801986862,
+      "user_id": "google-oauth2|104904289404221469938",
+      "house_no": "aej",
+      "area": "awhxwqhjx",
+      "zipcode": "wqdjhqhjw",
+      "city": "ecejh",
+      "isSelected": false,
+      "id": 2
+    }
+  ],
+  "appointments": [
+    {
+      "patient_id": [
+        {
+          "patient_id": 1660735268325,
+          "user_id": "google-oauth2|104904289404221469938",
+          "relation": "Self",
+          "name": "Kiran",
+          "age": 9,
+          "gender": "Male",
+          "id": 1,
+          "isChecked": true
+        },
+        {
+          "patient_id": 1660735946013,
+          "user_id": "google-oauth2|104904289404221469938",
+          "relation": "Self",
+          "name": "ABc",
+          "age": 0,
+          "gender": "Male",
+          "id": 2,
+          "isChecked": true
+        }
+      ],
+      "lab_id": {
+        "id": 2,
+        "name": "Los Altos Center Lab",
+        "rating": "4.3",
+        "availableSlots": "4 Slots Available",
+        "reportTime": "Reports ready in 24 hrs",
+        "amount": "$1200 for 1 Test"
+      },
+      "month": "1",
+      "date": "1",
+      "time": {
+        "startTime": "06:00 am",
+        "endTime": "07:00 am"
+      },
+      "id": 1
+    },
+    {
+      "patient_id": [
+        {
+          "patient_id": 1660735268325,
+          "user_id": "google-oauth2|104904289404221469938",
+          "relation": "Self",
+          "name": "Kiran",
+          "age": 9,
+          "gender": "Male",
+          "id": 1,
+          "isChecked": true
+        }
+      ],
+      "lab_id": {
+        "id": 2,
+        "name": "Los Altos Center Lab",
+        "rating": "4.3",
+        "availableSlots": "4 Slots Available",
+        "reportTime": "Reports ready in 24 hrs",
+        "amount": "$1200 for 1 Test"
+      },
+      "month": "2",
+      "date": "3",
+      "time": {
+        "startTime": "06:00 am",
+        "endTime": "07:00 am"
+      },
+      "id": 2
+    },
+    {
+      "patient_id": [
+        {
+          "patient_id": 1660735268325,
+          "user_id": "google-oauth2|104904289404221469938",
+          "relation": "Self",
+          "name": "Kiran",
+          "age": 9,
+          "gender": "Male",
+          "id": 1,
+          "isChecked": true
+        },
+        {
+          "patient_id": 1660735946013,
+          "user_id": "google-oauth2|104904289404221469938",
+          "relation": "Self",
+          "name": "ABc",
+          "age": 0,
+          "gender": "Male",
+          "id": 2,
+          "isChecked": true
+        }
+      ],
+      "lab_id": {
+        "id": 2,
+        "name": "Los Altos Center Lab",
+        "rating": "4.3",
+        "availableSlots": "4 Slots Available",
+        "reportTime": "Reports ready in 24 hrs",
+        "amount": "$1200 for 1 Test"
+      },
+      "month": "1",
+      "date": "1",
+      "time": {
+        "startTime": "06:00 am",
+        "endTime": "07:00 am"
+      },
+      "id": 3
+    }
+  ]
+}

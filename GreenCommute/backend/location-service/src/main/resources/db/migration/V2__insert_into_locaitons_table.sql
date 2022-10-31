@@ -1,0 +1,1 @@
+INSERT INTO `location` VALUES (1,'Telengana','Hyderabad','Hitech city','500056',567),(2,'Telengana','Hyderabad','Banjara Hills','500034',564),(3,'Maharashtra','Mumbai','Goregav','589100',223),(4,'Delhi','New Delhi','Uttam Nagar','500432',876),(5,'Lucknow','Jaipur','Zanzeerabad','500234',543),(6,'Maharashtra','Mumbai','Andheri west','500321',321);
